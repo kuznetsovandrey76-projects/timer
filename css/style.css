@@ -1,0 +1,34 @@
+body {
+	background: rgb(34, 38, 41);
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+}
+h1 {
+	color: white;
+	font-size: 5em;	
+}
+#timer {
+	display: table;
+	margin: 0 auto; 
+}
+span {
+	        border-radius: 50px;
+	-webkit-border-radius: 50px;
+	font-size: 15em;	
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+.days {
+	background: rgb(252, 99, 102);
+}
+.hours {
+	background: rgb(61, 139, 248);
+}
+.minutes {
+	background: rgb(159, 224, 130);
+}
+.sec {
+	background: rgb(250, 222, 78);
+}

@@ -8,9 +8,9 @@ window.onload = function() {
 			var timer = document.getElementById('timer');
 			var date = new Date();
 
-			var newYear = new Date("jan,1,2017,00:00:00"); // input Your date
+			var yourDate = new Date("jan,1,2017,00:00:00"); // input Your date
 
-			var subtract = parseInt((newYear.getTime()-date.getTime())/1000); 
+			var subtract = parseInt((yourDate.getTime()-date.getTime())/1000); 
 			var days = parseInt(subtract / 60 / 60 / 24);
 			var hours = addZero(parseInt((subtract - days * 24 * 60 * 60) / 60 / 60));
 			var minutes = addZero(parseInt(((subtract - days * 24 * 60 * 60) - hours * 60 * 60) / 60)); 
